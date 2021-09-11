@@ -22,11 +22,11 @@ public class Chat implements Listener {
      */
 	@EventHandler
 	public void onAsyncPlayerChat(AsyncPlayerChatEvent e) {
-		var arena = ArenaManager.getInstance().getArena(e.getPlayer());
-		
-		if (arena == null)
-			return;
-
-        e.getRecipients().removeIf(player -> !arena.contains(player));
+//		var arena = ArenaManager.getInstance().getArena(e.getPlayer());
+//
+//		if (arena == null)
+//			return;
+//
+//      e.getRecipients().removeIf(player -> !arena.contains(player));
 	}
 }

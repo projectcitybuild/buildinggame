@@ -1,3 +1,5 @@
+Forked version to remove the chat listener which was eating chat events for anyone not participating in the game.
+
 # Building Game <a href="https://discord.gg/5AJEGXG"><img align="right" src="https://img.shields.io/discord/389784128700153868" alt="Discord guild"></a>
 
 *This plugin works for Minecraft version 1.17*
