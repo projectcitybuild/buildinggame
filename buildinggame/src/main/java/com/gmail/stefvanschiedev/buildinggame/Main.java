@@ -1,6 +1,6 @@
 package com.gmail.stefvanschiedev.buildinggame;
 
-import be.maximvdw.placeholderapi.PlaceholderAPI;
+//import be.maximvdw.placeholderapi.PlaceholderAPI;
 import co.aikar.commands.BukkitCommandManager;
 import co.aikar.commands.ConditionFailedException;
 import co.aikar.commands.InvalidCommandArgument;
@@ -223,11 +223,11 @@ public class Main extends JavaPlugin {
             }
         }
 
-        if (pm.isPluginEnabled("MVdWPlaceholderAPI")) {
-            PlaceholderSupplier.getPlaceholderReplacements().forEach((placeholder, biFunction) ->
-                PlaceholderAPI.registerPlaceholder(this, placeholder, event ->
-                    biFunction.apply(event.getOfflinePlayer(), event.getPlaceholder())));
-        }
+//        if (pm.isPluginEnabled("MVdWPlaceholderAPI")) {
+//            PlaceholderSupplier.getPlaceholderReplacements().forEach((placeholder, biFunction) ->
+//                PlaceholderAPI.registerPlaceholder(this, placeholder, event ->
+//                    biFunction.apply(event.getOfflinePlayer(), event.getPlaceholder())));
+//        }
 
 		getLogger().info("Loading commands");
 		if (!reload) {
